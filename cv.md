@@ -36,10 +36,10 @@ function findMissing(arr1, arr2) {
 
 ## Education
 2011 - 2015 **GUMRF named after Admiral Makarov**
-            Learn Public administration
+Learn Public administration
 
 ## Experience
 2015 - 2020 **Pension fund of Russia**
-            Сhecking companies for payment of contributions
+Сhecking companies for payment of contributions
 2021 - now **Novoselie Development**
-           Registration and execution of contracts
+Registration and execution of contracts
