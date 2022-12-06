@@ -1,4 +1,62 @@
-body{
-    margin: 0;
-    padding: 0;
+*{
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'JosefinSans'
+}
+
+@font-face {
+  font-family: JosefinSans;
+  src: url("../assets/fonts/JosefinSans-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: JosefinSans;
+  src: url("../assets/fonts/JosefinSans-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: JosefinSans;
+  src: url('../assets/fonts/JosefinSans-Italic.ttf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  max-height: 100px;
+  background: rgb(19,34,55);
+  background: linear-gradient(90deg, rgba(19,34,55,1) 0%, rgba(2,18,153,0.17457405325411413) 100%);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: rgba(19,34,55,1);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+
+
+
