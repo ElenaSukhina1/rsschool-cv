@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth; 
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -40,6 +44,7 @@ body {
   max-height: 100px;
   background: rgb(19,34,55);
   background: linear-gradient(90deg, rgba(19,34,55,1) 0%, rgba(2,18,153,0.17457405325411413) 100%);
+  margin-bottom: 50px;
 }
 
 .nav-list {
@@ -56,6 +61,54 @@ body {
   font-size: 22px;
   font-weight: 700;
 }
+
+.main-header {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#profile {
+  /* display: flex; */
+  background: rgb(19,34,55);
+background: linear-gradient(90deg, rgba(19,34,55,1) 0%, rgba(52,59,118,0.11294940339417014) 55%);
+}
+
+.section-title {
+  font-size: 80px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.profile-text {
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.contacts {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.contacts-item:not(:last-child){
+  margin-right: 40px;
+}
+
+pre {
+  text-align: center;
+  background: lightslategrey;
+  font-size: 20px;
+}
+
 
 
 
