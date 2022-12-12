@@ -320,6 +320,12 @@ a.summary-text:hover{
   }
 }
 
+.contacts-title {
+  visibility: hidden;
+}
 
 
+.adress-title {
+  visibility: hidden;
+}
 
